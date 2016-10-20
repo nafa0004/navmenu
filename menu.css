@@ -96,8 +96,9 @@ header{
         }
         .menu-v a:hover,
         .menu-v a:active{
-			border: 1px solid #99CC99;
-			background-color: #002B38;		
+			border: 2px solid #99CC99;
+			text-align: center;
+			
         }
 main{
     width:80%;
