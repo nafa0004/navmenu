@@ -57,9 +57,8 @@ header{
         and line up horizontally
         and take up 20% of the width of the ul */
 		list-style: none;
-		display: inline;
+		float: left;
 		width: 20%;
-		padding-left: 7px;
 		
     }
         .menu-h a,
@@ -68,6 +67,7 @@ header{
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
 			width: 100%;
+			padding: 2px;
         }
         .menu-h a:hover,
         .menu-h a:active{
